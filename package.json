@@ -1,0 +1,17 @@
+{
+  "name": "likes",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:arranfw/likes.git",
+  "author": "arranfw <arran@freshworks.io>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "prettier": "^2.6.2",
+    "turbo": "^1.2.6"
+  }
+}
